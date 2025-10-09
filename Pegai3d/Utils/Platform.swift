@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 #if os(macOS)
 import AppKit
 public typealias UXColor = NSColor
