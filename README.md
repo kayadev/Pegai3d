@@ -36,12 +36,18 @@ Not: iPad dışındaki iOS cihazları hedef dışındadır; App Store yükleme k
 
 **Amaç:** Temelleri hazırlamak, altyapıyı seçmek.
 
-- Xcode’da SwiftUI + SceneKit tabanlı proje oluştur.
-- OpenCascade framework entegrasyonu.
-- GitHub deposu aç, versiyon kontrolü başlat.
-- Apple Developer hesabını ayarla.
+| Durum | Görev |
+| :---- | :---- |
+| ✅ | Xcode’da SwiftUI + SceneKit tabanlı proje oluştur |
+| ⏳ | OpenCascade framework entegrasyonu (henüz eklenmedi) |
+| ✅ | GitHub deposu açıldı, versiyon kontrolü başlatıldı |
+| ⏳ | Apple Developer hesabı ayarlanması |
+| ✅ | Platform hedefleri belirlendi (macOS + iPadOS, iPhone hariç) |
+| ✅ | SceneViewContainer temel sahne ile eklendi |
+| ✅ | CI (GitHub Actions) temel build workflow eklendi |
+| ✅ | Proje metinleri: LICENSE, CONTRIBUTING, CODE_OF_CONDUCT, SECURITY, FUNDING |
 
-**Sonuç:** Boş ama çalışır proje yapısı.
+**Sonuç:** Çalışır temel iskelet + altyapı dokümantasyonu hazır. OpenCascade ve Apple Developer adımı sırada.
 
 ---
 
