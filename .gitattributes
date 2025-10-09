@@ -1,0 +1,6 @@
+# Normalize metin dosyaları
+* text=auto eol=lf
+
+# Büyük dosyalar için (örn. 3D modeller) ileride Git LFS kullanımı örneği:
+# *.usdz filter=lfs diff=lfs merge=lfs -text
+# *.obj  filter=lfs diff=lfs merge=lfs -text
